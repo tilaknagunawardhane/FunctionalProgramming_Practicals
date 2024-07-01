@@ -1,0 +1,301 @@
+2024.06.25 08:05:47 INFO  Started: Metals version 1.3.2 in folders 'D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@34fbc79a]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1df139f8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@34fbc79a]
+2024.06.25 08:05:47 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.25 08:05:49 INFO  Running List(C:\Users\USER\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02)
+2024.06.25 08:05:49 INFO  Attempting to connect to the build server...
+2024.06.25 08:05:49 INFO  Running BSP server List(C:\Users\USER\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-options-v2.json, --json-launcher-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-launcher-options.json, --envs-file, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-envs.json, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02)
+2024.06.25 08:05:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.metals\bsp.trace.json or C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.25 08:05:52 INFO  BSP server: Starting compilation server
+2024.06.25 08:05:55 INFO  time: Connected to build server in 6.11s
+2024.06.25 08:05:55 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.25 08:05:55 INFO  time: Imported build in 0.2s
+2024.06.25 08:05:56 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:05:57 INFO  time: indexed workspace in 1.6s
+2024.06.25 08:05:57 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+2024.06.25 08:05:57 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:05:59 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:06:01 INFO  time: code lens generation in 3.32s
+2024.06.25 08:06:01 INFO  time: code lens generation in 3.57s
+2024.06.25 08:06:01 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:06:09 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:06:31 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+Jun 25, 2024 8:06:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2218)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:288)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:589)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:523)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1526)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:796)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	... 9 more
+
+2024.06.25 08:06:47 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:27 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:27 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:27 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:37 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:52 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:53 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:53 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:55 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:09:55 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:09 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:25 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:10:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:11:31 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:11:31 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:11:33 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:13 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:18 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:18 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:20 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:20 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:24 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:12:41 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:14:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:14:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:14:11 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:14:12 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:14:12 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:28 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:35 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:40 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:45 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:45 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:45 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:15:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 25, 2024 8:16:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+2024.06.25 08:16:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:36 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:43 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:44 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:44 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:45 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:48 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:48 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:50 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:50 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:16:58 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:03 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:03 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:03 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:15 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:18 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:18 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:40 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:17:43 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:23:43 INFO  Shutting down server
+2024.06.25 08:23:43 INFO  shutting down Metals
+2024.06.25 08:23:43 INFO  Shut down connection with build server.
+2024.06.25 08:31:01 INFO  Started: Metals version 1.3.2 in folders 'D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@12b3c3e3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@a3e6e11]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@12b3c3e3]
+2024.06.25 08:31:05 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.25 08:31:07 INFO  Attempting to connect to the build server...
+2024.06.25 08:31:07 INFO  Running BSP server List(C:\Users\USER\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-options-v2.json, --json-launcher-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-launcher-options.json, --envs-file, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-envs.json, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02)
+2024.06.25 08:31:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.metals\bsp.trace.json or C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.25 08:31:09 INFO  time: Connected to build server in 2.45s
+2024.06.25 08:31:09 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.25 08:31:10 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:31:10 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:31:11 INFO  time: indexed workspace in 1.63s
+2024.06.25 08:31:11 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+2024.06.25 08:31:11 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala
+2024.06.25 08:31:11 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:31:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:31:16 INFO  time: code lens generation in 4.29s
+2024.06.25 08:31:16 INFO  time: code lens generation in 4.84s
+2024.06.25 08:31:16 INFO  time: code lens generation in 4.84s
+2024.06.25 08:31:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:33:47 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:33:50 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:34:01 INFO  Shutting down server
+2024.06.25 08:34:01 INFO  shutting down Metals
+2024.06.25 08:34:01 INFO  Shut down connection with build server.
+2024.06.25 08:34:01 INFO  Exiting server
+2024.06.25 08:42:51 INFO  Started: Metals version 1.3.2 in folders 'D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@12415a8e]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@68de7497]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@12415a8e]
+2024.06.25 08:42:53 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.25 08:42:55 INFO  Attempting to connect to the build server...
+2024.06.25 08:42:55 INFO  Running BSP server List(C:\Users\USER\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-options-v2.json, --json-launcher-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-launcher-options.json, --envs-file, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.scala-build\ide-envs.json, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02)
+2024.06.25 08:42:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\.metals\bsp.trace.json or C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.25 08:42:57 INFO  time: Connected to build server in 2.67s
+2024.06.25 08:42:57 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.25 08:42:57 INFO  time: Imported build in 0.1s
+2024.06.25 08:42:58 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:42:58 INFO  compiling practical 02_53cb6fdf00 (4 scala sources)
+2024.06.25 08:42:59 INFO  time: indexed workspace in 2.1s
+2024.06.25 08:42:59 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala
+2024.06.25 08:43:00 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:03 INFO  time: code lens generation in 2.25s
+2024.06.25 08:43:03 INFO  time: code lens generation in 2.64s
+2024.06.25 08:43:03 INFO  time: code lens generation in 2.65s
+2024.06.25 08:43:03 INFO  time: code lens generation in 2.64s
+2024.06.25 08:43:03 INFO  time: code lens generation in 2.64s
+2024.06.25 08:43:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jun 25, 2024 8:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2024.06.25 08:43:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:56 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:56 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:56 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:57 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:59 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:43:59 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:01 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:07 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:08 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:08 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:08 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:10 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:10 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:10 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:12 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:14 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:14 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:14 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:19 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:25 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:48 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:48 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:49 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:52 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:52 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:52 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:54 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:54 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:55 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:57 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:57 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:44:58 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:01 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:06 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:16 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:17 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:17 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:25 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:25 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:33 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:34 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:36 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:36 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:37 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:37 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:48 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:51 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:52 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:54 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:54 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:59 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:45:59 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:05 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:11 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:11 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:13 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:13 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:13 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:15 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:17 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:19 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:19 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:19 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:20 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:20 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:21 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:22 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:22 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:22 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:24 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:24 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:24 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:31 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:32 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:46:38 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 02\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.25 08:47:59 INFO  Shutting down server
+2024.06.25 08:47:59 INFO  shutting down Metals
+2024.06.25 08:47:59 INFO  Shut down connection with build server.
+2024.06.25 08:47:59 INFO  BSP server: Jun 25, 2024 8:47:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.06.25 08:48:00 INFO  Exiting server
