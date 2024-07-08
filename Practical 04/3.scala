@@ -21,5 +21,4 @@ object Convert{
         names.foreach(name => println(formatNames(name._1)(name._2)))
 
     }
-
 }
