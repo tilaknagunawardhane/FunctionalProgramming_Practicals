@@ -961,3 +961,273 @@ WARNING: Unmatched cancel notification for request id 11
 2024.07.08 21:35:36 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.38s
 2024.07.08 21:42:16 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
 2024.07.08 21:42:16 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.93s
+2024.07.08 21:47:00 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.08 21:47:03 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 3.51s
+2024.07.08 21:47:27 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.08 21:47:27 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.39s
+2024.07.09 07:53:10 INFO  Started: Metals version 1.3.2 in folders 'D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals' for client Visual Studio Code 1.91.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@48b36351]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@5cc366ab]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@48b36351]
+2024.07.09 07:53:15 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.09 07:53:16 INFO  Attempting to connect to the build server...
+2024.07.09 07:53:16 INFO  Running BSP server List(C:\Users\USER\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-launcher-options.json, --envs-file, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-envs.json, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals)
+2024.07.09 07:53:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.metals\bsp.trace.json or C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Jul 09, 2024 7:53:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.07.09 07:53:18 INFO  BSP server: Starting compilation server
+2024.07.09 07:53:22 INFO  time: Connected to build server in 6.33s
+2024.07.09 07:53:22 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.09 07:53:22 INFO  time: Imported build in 0.14s
+2024.07.09 07:53:23 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.09 07:53:27 INFO  time: indexed workspace in 4.78s
+2024.07.09 07:53:29 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 6.23s
+2024.07.09 07:53:29 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.09 07:53:31 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.82s
+2024.07.09 07:53:31 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.09 07:53:31 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.55s
+2024.07.09 07:53:32 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.09 07:53:32 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.6s
+2024.07.09 07:53:32 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (16 scala sources)
+2024.07.09 07:53:34 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.64s
+Jul 09, 2024 7:58:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 184
+Jul 09, 2024 8:34:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 302
+2024.07.09 09:01:42 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 04\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 09, 2024 9:01:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+Jul 09, 2024 9:01:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 326
+Jul 09, 2024 9:01:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 327
+2024.07.09 09:01:44 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 04\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.09 09:01:59 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:13 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 13s
+2024.07.09 09:02:13 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:13 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 62ms
+2024.07.09 09:02:13 INFO  time: Imported build in 28s
+Jul 09, 2024 9:02:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 325
+2024.07.09 09:02:13 WARN  no build target for: D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 04\4.scala
+Jul 09, 2024 9:02:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 329
+Jul 09, 2024 9:02:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+Jul 09, 2024 9:02:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 330
+Jul 09, 2024 9:02:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+Jul 09, 2024 9:02:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 333
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 342
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 345
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 343
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 341
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 346
+Jul 09, 2024 9:02:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 356
+Jul 09, 2024 9:02:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 357
+Jul 09, 2024 9:02:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 344
+2024.07.09 09:02:20 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:20 INFO  Deduplicating compilation of FunctionalProgramming_Practicals_53cb6fdf00 from bsp client 'scala-cli 1.3.2' (since 1h 8m 58.762s)
+2024.07.09 09:02:20 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:23 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 2.71s
+2024.07.09 09:02:30 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 04\4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.09 09:02:33 INFO  time: code lens generation in 48s
+2024.07.09 09:02:33 INFO  time: code lens generation in 19s
+2024.07.09 09:02:35 INFO  time: indexed workspace in 21s
+2024.07.09 09:02:36 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:36 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.52s
+2024.07.09 09:02:54 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:02:54 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.49s
+2024.07.09 09:03:07 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:03:07 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.35s
+2024.07.09 09:03:29 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:03:29 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.36s
+2024.07.09 09:04:23 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:04:23 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.78s
+Jul 09, 2024 9:12:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+2024.07.09 09:16:39 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:16:40 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.84s
+2024.07.09 09:17:22 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.09 09:17:22 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.35s
+Jul 09, 2024 9:29:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 868
+Jul 09, 2024 9:30:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 887
+Jul 09, 2024 9:33:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 949
+Jul 09, 2024 9:34:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 967
+2024.07.09 09:36:39 INFO  Shutting down server
+2024.07.09 09:36:39 INFO  shutting down Metals
+2024.07.09 09:36:40 INFO  Shut down connection with build server.
+2024.07.15 20:24:35 INFO  Started: Metals version 1.3.3 in folders 'D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals' for client Visual Studio Code 1.91.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@18ff5954]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@36de9141]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@18ff5954]
+2024.07.15 20:24:36 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 20:24:37 INFO  Attempting to connect to the build server...
+2024.07.15 20:24:37 INFO  Running BSP server List(C:\Users\USER\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-options-v2.json, --json-launcher-options, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-launcher-options.json, --envs-file, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.scala-build\ide-envs.json, D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals)
+2024.07.15 20:24:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\.metals\bsp.trace.json or C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.15 20:24:42 INFO  BSP server: Starting compilation server
+2024.07.15 20:24:47 INFO  time: Connected to build server in 9.35s
+2024.07.15 20:24:47 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.15 20:24:47 INFO  time: Imported build in 0.13s
+2024.07.15 20:24:47 INFO  running doctor check
+2024.07.15 20:24:47 INFO  java targets: FunctionalProgramming_Practicals_53cb6fdf00-test, FunctionalProgramming_Practicals_53cb6fdf00
+2024.07.15 20:24:48 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.15 20:24:53 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 5.01s
+2024.07.15 20:24:53 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.15 20:24:55 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.91s
+2024.07.15 20:24:55 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 20:24:57 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.15 20:24:59 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.52s
+Jul 15, 2024 8:25:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+2024.07.15 20:25:08 INFO  time: indexed workspace in 21s
+2024.07.15 20:25:09 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.15 20:25:10 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.04s
+2024.07.15 20:25:10 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (17 scala sources)
+2024.07.15 20:25:11 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.67s
+2024.07.15 20:25:22 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 05\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 20:25:23 INFO  time: Imported build in 0.1s
+2024.07.15 20:25:23 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 20:25:29 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 5.86s
+2024.07.15 20:25:29 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 20:25:29 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 05\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 20:25:29 INFO  running doctor check
+2024.07.15 20:25:29 INFO  java targets: FunctionalProgramming_Practicals_53cb6fdf00-test, FunctionalProgramming_Practicals_53cb6fdf00
+2024.07.15 20:25:30 INFO  time: code lens generation in 6.48s
+2024.07.15 20:25:31 INFO  time: indexed workspace in 2.05s
+2024.07.15 20:25:55 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 20:25:55 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.51s
+2024.07.15 21:02:25 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:02:25 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.85s
+2024.07.15 21:04:45 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:04:45 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.67s
+Jul 15, 2024 9:08:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+2024.07.15 21:08:10 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:08:10 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.41s
+2024.07.15 21:10:53 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:10:53 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.53s
+Jul 15, 2024 9:29:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 414
+2024.07.15 21:32:22 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:32:23 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.22s
+2024.07.15 21:35:01 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:35:02 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1s
+2024.07.15 21:35:44 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:35:44 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.67s
+2024.07.15 21:36:11 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:36:11 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.41s
+Jul 15, 2024 9:38:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+2024.07.15 21:39:19 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (18 scala sources)
+2024.07.15 21:39:19 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.42s
+2024.07.15 21:46:56 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 05\2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 21:46:58 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 21:46:58 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.53s
+2024.07.15 21:46:58 INFO  time: Imported build in 2.02s
+2024.07.15 21:46:59 INFO  time: code lens generation in 1.94s
+2024.07.15 21:46:58 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 21:46:59 INFO  running doctor check
+2024.07.15 21:46:59 INFO  java targets: FunctionalProgramming_Practicals_53cb6fdf00-test, FunctionalProgramming_Practicals_53cb6fdf00
+2024.07.15 21:47:04 INFO  time: indexed workspace in 5.35s
+2024.07.15 21:48:49 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 21:48:49 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.78s
+2024.07.15 21:49:23 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 21:49:25 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.37s
+Jul 15, 2024 9:55:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1133
+2024.07.15 21:59:22 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 21:59:22 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.67s
+2024.07.15 22:09:20 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:09:20 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.64s
+2024.07.15 22:11:32 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:11:32 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.88s
+Jul 15, 2024 10:16:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1340
+2024.07.15 22:20:29 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:20:29 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.5s
+Jul 15, 2024 10:20:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1506
+Jul 15, 2024 10:20:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1507
+2024.07.15 22:22:52 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:22:54 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.97s
+2024.07.15 22:23:27 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:23:27 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.71s
+Jul 15, 2024 10:24:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2118
+2024.07.15 22:24:21 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:24:21 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.96s
+2024.07.15 22:26:33 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:26:33 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.53s
+Jul 15, 2024 10:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2598
+2024.07.15 22:30:03 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:30:03 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.69s
+2024.07.15 22:30:57 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:30:57 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.42s
+2024.07.15 22:32:37 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:32:37 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.63s
+2024.07.15 22:34:01 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:34:01 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.7s
+2024.07.15 22:37:04 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:37:05 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 1.25s
+2024.07.15 22:38:19 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:38:19 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.48s
+2024.07.15 22:40:07 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:40:07 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.65s
+2024.07.15 22:40:47 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:40:47 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.27s
+2024.07.15 22:40:55 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:40:55 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.22s
+2024.07.15 22:43:02 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:43:02 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.43s
+2024.07.15 22:43:31 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:43:31 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.18s
+2024.07.15 22:43:52 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:43:52 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.19s
+2024.07.15 22:46:31 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:46:31 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.2s
+Jul 15, 2024 10:46:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4297
+2024.07.15 22:47:04 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:47:04 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.36s
+2024.07.15 22:47:22 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (19 scala sources)
+2024.07.15 22:47:22 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.21s
+2024.07.15 22:49:50 INFO  no build target found for D:\University\Sem 3\Functional Programming\practical\FunctionalProgramming_Practicals\Practical 05\3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 22:49:51 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:49:51 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.67s
+2024.07.15 22:49:52 INFO  time: Imported build in 1.23s
+2024.07.15 22:49:52 INFO  running doctor check
+2024.07.15 22:49:52 INFO  java targets: FunctionalProgramming_Practicals_53cb6fdf00-test, FunctionalProgramming_Practicals_53cb6fdf00
+2024.07.15 22:49:51 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:49:52 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.22s
+2024.07.15 22:49:54 INFO  time: indexed workspace in 1.96s
+2024.07.15 22:49:54 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:49:54 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.23s
+2024.07.15 22:50:16 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:50:16 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.17s
+Jul 15, 2024 10:51:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4595
+2024.07.15 22:51:07 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:51:07 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.23s
+2024.07.15 22:56:58 INFO  compiling functionalprogramming_practicals_53cb6fdf00 (20 scala sources)
+2024.07.15 22:56:58 INFO  time: compiled FunctionalProgramming_Practicals_53cb6fdf00 in 0.19s
