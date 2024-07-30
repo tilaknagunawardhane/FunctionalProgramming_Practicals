@@ -56,7 +56,7 @@ object LibraryManagement {
         found = true  // Book is found
       }
     }
-    found  // Return the result after the loop
+    found  
   }
 
   def displayBooksByAuthor(author: String): Unit = {
