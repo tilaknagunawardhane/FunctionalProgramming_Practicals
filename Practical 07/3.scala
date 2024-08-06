@@ -12,20 +12,8 @@ object FilterPrimeApp {
     }
 
     def isPrime(number: Int): Boolean = {
-        if (number <= 1) {
-            false
-        }
-        else if (number == 2) {
-            true
-        }
-        else {
-            var checkPrime = true
-            for (n <- 2 until number if checkPrime) {
-                if (number % n == 0) {
-                    checkPrime = false
-                }
-            }
-            checkPrime
-        }
+        if (number <= 1) false
+        else if (number == 2) true
+        else !(2 until number).exists(n => number % n == 0)
     }
 }
